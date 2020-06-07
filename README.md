@@ -1,6 +1,8 @@
 # adjacentDigits
 
 Adjacent Digits Problem in C++
+  Given a number N, print all positive numbers
+  less than N in which all adjacent digits differ by 1.
 
 Compiled with makefile
 
