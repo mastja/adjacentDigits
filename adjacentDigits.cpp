@@ -79,7 +79,7 @@ void adjacentDigits() {
     // for values less than 11 and less than the input value, all values satisfy the conditions
     for (int i=0; i < 11; i++){
         if (i < inputNum){
-            if(i = 0){
+            if(i == 0){
                 cout << i;
             }
             else{
