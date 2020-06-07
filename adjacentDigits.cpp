@@ -1,7 +1,8 @@
 /*  Project Name : Adjacent Digits Integers Problem
     Date: 06/07/2020
     Programmer: Jacob Mast
-    Description: The program to executes the common Google interview question:
+    Description: This program to executes user interface and algorithm solution 
+                to the common Google interview question:
                 Given a number N, write a code to print all positive numbers
                 less than N in which all adjacent digits differ by 1.
 */
@@ -11,7 +12,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// function drives the Adjacent Integers Algorithm, see further description below
+// function drives the Adjacent Digits Algorithm, see further description below
 void adjacentDigits();
 
 // function drives the main menu, see further description below
@@ -22,7 +23,7 @@ int main(){
 
     // title of program
     cout << "************************************************************************\n"
-        << "*************\t ADACENT INTEGERS TESTING PROGRAM \t*************\n"
+        << "***********\t ADACENT DIGITS INTEGERS TESTING PROGRAM \t***********\n"
         << "************************************************************************\n\n";
 
     // main menu, 1 is play, 2 is quit
@@ -66,7 +67,7 @@ returns: nothing
 void adjacentDigits() { 
     
     // prompt user for input
-	cout << "*****\t Enter an Integer to run the adjacent integers simulation on: \t*****\n";
+	cout << "*****\t Enter an Integer to run the adjacent digits integers simulation on: \t*****\n";
 
     // record user input
     int inputNum;
