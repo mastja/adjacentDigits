@@ -73,13 +73,18 @@ void adjacentDigits() {
     cin >> inputNum;
 
     // User response
-    cout << "\nProgram Output:\n\t";
+    cout << "\n*****\t Program Output: \t*****\n\t";
 
 
     // for values less than 11 and less than the input value, all values satisfy the conditions
     for (int i=0; i < 11; i++){
         if (i < inputNum){
-            cout << i << ", ";          
+            if(i = 0){
+                cout << i;
+            }
+            else{
+                cout << ", " << i;
+            }
         }
     }
 
@@ -118,11 +123,11 @@ void adjacentDigits() {
 
             // if flag has not been changed to false, the current j value satisfies the conditions
             if (flag == true){
-                cout << j << ", ";
+                cout << ", " << j;
             }
         }
 
-        cout << endl;
+        cout << "\n" << endl;
     }
 
     return; 
