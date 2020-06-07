@@ -21,9 +21,9 @@ int mainMenu();
 int main(){
 
     // title of program
-    cout << "***************************************************************************\n"
-        << "**********\t ADACENT INTEGERS TESTING PROGRAM \t**********\n"
-        << "***************************************************************************\n\n";
+    cout << "************************************************************************\n"
+        << "*************\t ADACENT INTEGERS TESTING PROGRAM \t*************\n"
+        << "************************************************************************\n\n";
 
     // main menu, 1 is play, 2 is quit
     int mainChoice = mainMenu();
@@ -66,7 +66,7 @@ returns: nothing
 void adjacentDigits() { 
     
     // prompt user for input
-	cout << "Enter an Integer to run the adjacent integers simulation on:\n";
+	cout << "*****\t Enter an Integer to run the adjacent integers simulation on: \t*****\n";
 
     // record user input
     int inputNum;
@@ -121,6 +121,8 @@ void adjacentDigits() {
                 cout << j << ", ";
             }
         }
+
+        cout << endl;
     }
 
     return; 
@@ -140,7 +142,7 @@ source: my hw submission in CS162
 int mainMenu(){ 
 
 // prompt user for input
-	cout << "What would you like to do?.\n"
+	cout << "*****\t What would you like to do? \t*****\n"
 	<< "Enter 1 to run the adjacent integers test on your number.\n"
 	<< "Enter 2 to quit.\n";
 
