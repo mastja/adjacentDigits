@@ -150,7 +150,7 @@ int mainMenu(){
 // declare variables for validation below
 
 	string choice;
-	const string choice1 = "1", choice2 = "2",
+	const string choice1 = "1", choice2 = "2";
 	int returnChoice = 0;
 
 // the below verifies input did not fail and is exactly 1 or 2 else asks for user
